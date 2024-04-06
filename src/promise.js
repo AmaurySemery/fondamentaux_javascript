@@ -1,7 +1,7 @@
 // Une promesse est un objet (Promise) qui représente la complétion ou l'échec d'une opération asynchrone
 // Une promesse est un objet qui est renvoyé et auquel on attache des callbacks plutôt que de passer des callbacks à une fonction
 
-// Exemple 1
+// Exemple de base
 
 const getCarFromAPI = (idCar) => {
     return new Promise((resolve, reject) => {
