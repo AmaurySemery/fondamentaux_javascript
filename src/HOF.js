@@ -1,3 +1,5 @@
+// HOF : High Order Function => une fonction qui prend en paramètres une ou plusieurs autres fonctions et/ou retourne une fonction
+
 const numbers = [1, 2, 3]
 const square = (x) => x * x
 const numberSquared = numbers.map(square)
